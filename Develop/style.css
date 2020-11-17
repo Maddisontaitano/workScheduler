@@ -63,10 +63,19 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    float: right;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
-  
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
